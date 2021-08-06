@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testClean.CRUDItemsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-06T01:11:25" hostname="DESKTOP-DMQDE3P" time="4.588">
+  <properties/>
+  <testcase name="verifyCRUDItems()" classname="testClean.CRUDItemsTest" time="4.588"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	http://todo.ly/api/items.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic dWNiQHVjYjIwMjEuY29tOjEyMzQ1
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"Content":"Item_Ibeth"}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=1hmiy1s5mlhezrroiw1pguzb; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 06 Aug 2021 02:12:22 GMT
+Content-Length: 531
+
+{
+    "Id": 10910094,
+    "Content": "Item_Ibeth",
+    "ItemType": 1,
+    "Checked": false,
+    "ProjectId": null,
+    "ParentId": null,
+    "Path": "",
+    "Collapsed": false,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+    "LastSyncedDateTime": "/Date(1628215943418)/",
+    "Children": [
+        
+    ],
+    "DueDateTime": null,
+    "CreatedDate": "/Date(1628215943403)/",
+    "LastCheckedDate": null,
+    "LastUpdatedDate": "/Date(1628215943403)/",
+    "Deleted": false,
+    "Notes": "",
+    "InHistory": false,
+    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 690429
+}
+Request method:	PUT
+Request URI:	http://todo.ly/api/items/10910094.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic dWNiQHVjYjIwMjEuY29tOjEyMzQ1
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"Checked":true}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=5w3lrjadsaflnei1bel2az3j; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 06 Aug 2021 02:12:24 GMT
+Content-Length: 550
+
+{
+    "Id": 10910094,
+    "Content": "Item_Ibeth",
+    "ItemType": 1,
+    "Checked": true,
+    "ProjectId": null,
+    "ParentId": null,
+    "Path": "",
+    "Collapsed": false,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+    "LastSyncedDateTime": "/Date(1628215944775)/",
+    "Children": [
+        
+    ],
+    "DueDateTime": null,
+    "CreatedDate": "/Date(1628215943403)/",
+    "LastCheckedDate": "/Date(1628215944760)/",
+    "LastUpdatedDate": "/Date(1628215944760)/",
+    "Deleted": false,
+    "Notes": "",
+    "InHistory": true,
+    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 690429
+}
+Request method:	GET
+Request URI:	http://todo.ly/api/items/10910094.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic dWNiQHVjYjIwMjEuY29tOjEyMzQ1
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=fyaedvusbpfx1g3dtn555hrv; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 06 Aug 2021 02:12:24 GMT
+Content-Length: 550
+
+{
+    "Id": 10910094,
+    "Content": "Item_Ibeth",
+    "ItemType": 1,
+    "Checked": true,
+    "ProjectId": null,
+    "ParentId": null,
+    "Path": "",
+    "Collapsed": false,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+    "LastSyncedDateTime": "/Date(1628215945243)/",
+    "Children": [
+        
+    ],
+    "DueDateTime": null,
+    "CreatedDate": "/Date(1628215943403)/",
+    "LastCheckedDate": "/Date(1628215944760)/",
+    "LastUpdatedDate": "/Date(1628215944760)/",
+    "Deleted": false,
+    "Notes": "",
+    "InHistory": true,
+    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 690429
+}
+Request method:	DELETE
+Request URI:	http://todo.ly/api/items/10910094.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic dWNiQHVjYjIwMjEuY29tOjEyMzQ1
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=woehiaje55njs15vj3rqpa5a; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Fri, 06 Aug 2021 02:12:24 GMT
+Content-Length: 549
+
+{
+    "Id": 10910094,
+    "Content": "Item_Ibeth",
+    "ItemType": 1,
+    "Checked": true,
+    "ProjectId": null,
+    "ParentId": null,
+    "Path": "",
+    "Collapsed": false,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+    "LastSyncedDateTime": "/Date(1628215945758)/",
+    "Children": [
+        
+    ],
+    "DueDateTime": null,
+    "CreatedDate": "/Date(1628215943403)/",
+    "LastCheckedDate": "/Date(1628215944760)/",
+    "LastUpdatedDate": "/Date(1628215945760)/",
+    "Deleted": true,
+    "Notes": "",
+    "InHistory": true,
+    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 690429
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
